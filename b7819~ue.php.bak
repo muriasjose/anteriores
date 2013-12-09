@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Mi primera página Web sin ayuda</title>
+
+	</head>
+	<body>
+		<?php
+		$producto1=			"Supra 85";
+		$producto2=			"Paselite 80";
+		?>
+
+		<h1>Listado de productos</h1>
+		<table border=10>
+			<tr>
+				<td>
+					<?php echo ("$producto1");?>
+				</td>
+			</tr>
+			<tr>
+				<td><?php echo ("$producto2");?>
+					</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

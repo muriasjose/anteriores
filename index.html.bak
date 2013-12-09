@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Mi primera p�gina Web sin ayuda</title>
+		<!-- Llamamos al fichero de estilo dentro de la etiqueta HEAD -->
+		<LINK REL="stylesheet" HREF="styles.css" TYPE="text/css">
+	
+	</head>
+	<body>
+		<header>
+			
+			<nav>
+					<ul>
+    				<li><a title="Guias de uso de la red privada" href="#">Guias de uso de la red privada</a></li>
+    				<li><a title="Enlaces de Interes" href="#">Enlaces de Interes</a></li>
+    				<li><a title="Obras Externas" href="#">Obras Externas</a></li>
+    				<li><a title="Formatos de Documentos" href="#">Formatos de Documentos</a></li>
+    				<li><a title="Biblioteca" href="#">Biblioteca</a></li>
+					</ul>
+			</nav>
+		</header>
+		<aside>
+
+            <div id="contenedor1">
+            	 el contenido de aside es algo que no tiene gran relevancia en la pagina, como un submenu, buscador, formulario de contacto etc...
+            </div>
+
+    </aside>
+    
+    <section>
+            <p>un section es una manera de dividir la pagina por "secciones" de tal modo que podemos dividir el contenido de esta por temas</p>
+            <article>
+                <h1>El article es la parte mas importante del sitio</h1>
+                <p>Basicamente en el article pondremos lo mas importante de la pagina, la informacion jerarquicamente mas importante, un article puede tener header y footer, sin estropear el SEO.</p>
+            </article>
+    </section>
+        <footer>
+            <p>Derechos reservados</p>
+            <p>Contactenos en muriasjose@gmail.com</p>
+        </footer>
+
+
+        &nbsp;
+			
+
+
+	</body>
+</html>
